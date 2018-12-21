@@ -2,7 +2,6 @@ import subprocess
 import os
 import sys
 from pathlib import Path
-print('initing...')
 # load
 my_file = Path('C:\htzqzyb2\hexin.exe')
 if my_file.exists():
