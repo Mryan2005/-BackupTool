@@ -17,3 +17,4 @@ if my_file.exists():
     child = subprocess.Popen('git push origin',shell=True)
 else:
     child = subprocess.Popen('cd C:\ ')
+    child.wait()
