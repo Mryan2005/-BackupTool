@@ -1,2 +1,6 @@
-print('欢迎使用备份软件')
+import subprocess
+import os
 print('initing...')
+# load
+print('all right!')
+# main
