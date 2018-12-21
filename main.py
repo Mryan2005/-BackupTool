@@ -14,6 +14,6 @@ if my_file.exists():
     child.wait()
     child = subprocess.Popen('git commit -m update',shell=True)
     child.wait()
-    child = subprocess.Popen('git push orgin',shell=True)
+    child = subprocess.Popen('git push origin',shell=True)
 else:
     child = subprocess.Popen('cd C:\ ')
