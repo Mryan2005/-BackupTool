@@ -2,7 +2,9 @@ import subprocess
 import os
 import sys
 from pathlib import Path
+import config_operate
 # load
+config_operate.main
 my_file = Path('C:\htzqzyb2\hexin.exe')
 if my_file.exists():
     child = subprocess.Popen('C:\htzqzyb2\hexin.exe',shell=True)
