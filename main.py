@@ -20,7 +20,7 @@ if os.path.exists(path):
     add.wait()
     commit = subprocess.Popen('git commit -m update',shell=True)
     commit.wait()
-    push = subprocess.Popen('git push origin',shell=True)
+    push = subprocess.Popen('git push -u origin master',shell=True)
     push.wait()
 else:
     child = subprocess.Popen(r'cd C:\ ')  
